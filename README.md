@@ -8,7 +8,9 @@ Dependancies:
 	- [hugo](http://gohugo.io)  
 	- [docker](http://docker.com)  
 
-	
+Setup:  
+---  
+
 Git:  
 (for more detailed or other OS instructions please see: [Git Docs](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git))  
 	- install git
