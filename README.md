@@ -27,8 +27,12 @@ Go:
 Hugo:  
 (for more detailed or other OS instructions please see: [Hugo Docs](http://gohugo.io/overview/installing/))  
 	- install hugo  
-		`$ export GOPATH=$HOME/go`  
-		`$ go get -v github.com/spf13/hugo`  
+		`$ mkdir -p ~/opt/packages/hugo && cd $_`  
+		`$ wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz`  
+		`$ gzip -dc hugo_0.14_linux_amd64.tar.gz | tar xf - && rm hugo_0.14_linux_amd64.tar.gz`  
+		(Adding hugo to your path)  
+		`$ sudo ln -s ~/opt/packages/hugo/hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 ~/bin/hugo /usr/local/bin/hugo`  
+		`$ source ~/.profile`  
 
 Docker:  
 (for more detailed or other OS instructions please see: [Docker Docs](http://docs.docker.com/installation/))  
