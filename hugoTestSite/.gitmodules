@@ -1,0 +1,3 @@
+[submodule "themes/blackAndWhite"]
+	path = themes/blackAndWhite
+	url = git://github.com/hicksca/blackAndWhite.git

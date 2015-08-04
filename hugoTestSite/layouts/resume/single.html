@@ -1,0 +1,179 @@
+{{ partial "head.html" . }}
+    <style>
+        body {
+            margin-bottom: 100px;
+        }
+        .li-resume-header {
+            padding: 60px 0px;
+        }
+        .li-resume-header h1 {
+            color: #fff;
+            font-size: 60px;
+            margin: 0px;
+        }
+        .li-resume-header a,
+        .li-resume-header a:active,
+        .li-resume-header a:hover,
+        .li-resume-header a:visited {
+            color: #fff;
+            font-weight: normal;
+        }
+        .li-resume-header th {
+            min-width: 100px;
+            text-align: right;
+            padding-right: 20px;
+        }
+        .li-resume-profile {
+            margin: 60px 0px;
+        }
+        .li-resume-assignment {
+            margin-bottom: 60px;
+        }
+        .li-resume-assignment-meta {
+            font-size: smaller;
+        }
+        .li-resume-assignment-consultant {
+            font-size: smaller;
+            font-style: oblique;
+        }
+        .li-resume-content {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .li-resume-course {
+            margin-bottom: 20px;
+        }
+        .li-resume-course:last-child {
+            margin-bottom: 0px;
+        }
+        /** Mobile Landscape *************************************************/
+        @media only screen and (max-width: 767px) {
+            .li-resume-header {
+                padding: 20px 0px;
+            }
+            .li-resume-header h1 {
+                font-size: 32px;
+                padding-bottom: 20px;
+                text-align: left;
+            }
+            .li-resume-header table th {
+                display: none;
+            }
+            .li-resume-profile {
+                margin: 20px 0px;
+            }
+        }
+    </style>
+    <header class="li-page-header">
+        <div class="container">
+            <div class="row li-resume-header">
+                <div class="ten columns">
+                    <h1>Carl Hicks</h1>
+                </div>
+                <div class="six columns">
+                    <table>
+                        <tr>
+                            <th>call:</th>
+                            <td>
+                                <a href="tel:+15612713012">+1 (561) 271 3012</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>write:</th>
+                            <td>
+                                <a href="mailto:mail@carlhicks.me">mail@carlhicks.me</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>visit:</th>
+                            <td>
+                                <a href="https://carlhicks.me">carlhicks.me</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>code:</th>
+                            <td>
+                                <a href="https://github.com/hicksca">github.com/hicksca</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row li-resume-profile">
+                <div class="sixteen columns">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <h2>Experience</h2>
+            </div>
+        </div>
+        <div class="row li-resume-assignment">
+            <div class="five columns">
+                <h3>Enterprise IT Contractor</h3>
+                <div class="li-resume-assignment-meta">Various (Mid-West)</div>
+                <div class="li-resume-assignment-meta">2009-07 – 2014-09</div>
+            </div>
+            <div class="eleven columns">
+                <p>Providing services and support within the enterprise information technology space, on demand. Specializing in implementation and/or troubleshooting of physical infrastructure. Responsive to the needs and requirements of multiple customers both small and large; with proven ability to earn the trust and confidence of team members and customers with a track record of successful end results and history of maintaining strong continual relationship building.</p>
+            </div>
+        </div>
+        <div class="row li-resume-assignment">
+            <div class="five columns">
+                <h3>Technical Support Technician</h3>
+                <div class="li-resume-assignment-consultant">Old National Bank</div>
+                <div class="li-resume-assignment-meta">Evansville, Indiana</div>
+                <div class="li-resume-assignment-meta">2009-03 – 2010-12</div>
+            </div>
+            <div class="eleven columns">
+              <p>Assisting users with maintenance and troubleshooting of the core business desktop which includes such task as assisting with application and hardware installations, configuration, and registration issues, along with other activities associated with the identification, prioritization and resolution of reported problems such as recognition, research, isolation, resolution, and follow-up.</p>
+            </div>
+        </div>
+        <div class="row li-resume-assignment">
+            <div class="five columns">
+                <h3>Computer Operator</h3>
+                <div class="li-resume-assignment-consultant">Old National Bank</div>
+                <div class="li-resume-assignment-meta">Evansville, Indiana</div>
+                <div class="li-resume-assignment-meta">2007-09 – 2009-04</div>
+            </div>
+            <div class="eleven columns">
+              <p>Worked independently operating remote job entry terminals, UNIX, LAN based processors, PCs and other devices, to maintain and update files. Monitored batch job schedules and other systems and investigated problems and contacted appropriate on call personnel. Maintained backups of LAN file servers and completed file restorations. Prepared and distributed reports generated. Maintained control logs, inventories, and reports as required. Complete assigned projects as by IT management team. This position provides support during holidays and other days off. Also operates as the Help Desk on an as needed basis.</p>
+            </div>
+        </div>
+        <div class="row li-resume-assignment">
+            <div class="five columns">
+                <h3>IT System Analyst</h3>
+                <div class="li-resume-assignment-consultant">Inlet Grove Community High School</div>
+                <div class="li-resume-assignment-meta">Riviera Beach, Flordia</div>
+                <div class="li-resume-assignment-meta">2005-08 – 2006-03</div>
+            </div>
+            <div class="eleven columns">
+                <p>Responsible for all day to day technical needs of the school including but not limited to: Technical Purchasing Inventory, Minor project management, Managing end–user and server application/hardware, Working with district support staff to implement projects.</p>
+            </div>
+        </div>
+            <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <h2>Background</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="five columns">
+                <h3>Education</h3>
+            </div>
+            <div class="eleven columns li-resume-content">
+                IronHack Web Development Bootcamp<br/>
+                <div class="li-resume-assignment-meta">Ironhack, Miami, Flordia</div>
+                <div class="li-resume-assignment-meta">2015-2015</div>
+            </div>
+        </div>
+    </div>
+
+{{ partial "tail.html" . }}
+

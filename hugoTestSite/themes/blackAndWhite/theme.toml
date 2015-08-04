@@ -1,0 +1,21 @@
+# This theme is a fork not intented to be used by others
+# You are are more then free to do what you want
+# with this theme
+
+name = "blackAndWhite"
+license = "MIT"
+licenselink = "https://github.com/hickcs/blackAndWhite/LICENSE"
+description = ""
+homepage = "http://carlhicks.me"
+min_version = 0.14
+
+[author]
+  name = "Carl Hicks"
+  homepage = "http://carlhicks.me"
+
+# forked from:
+[original]
+  author = "Markus Eliasson"
+  name = "liquorice"
+  homepage = "http://www.markuseliasson.se"
+  repo = "https://github.com/eliasson/liquorice"
