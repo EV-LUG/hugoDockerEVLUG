@@ -21,10 +21,10 @@ Go:
 		`$ sudo apt-get install golang`  
 		
 Docker:  
-	- Install Docker
-		(Check if wget installed)
-		`$ which wget` <- If installed skip next two commands
-		(Installing wget)
-		`sudo apt-get update`
-		`sudo apt-get install wget`
+	- Install Docker  
+		(Check if wget installed)  
+		`$ which wget` <- If installed skip next two commands  
+		(Installing wget)  
+		`sudo apt-get update`  
+		`sudo apt-get install wget`  
 		`wget -q0- https://get.docker.com/ | sh`
