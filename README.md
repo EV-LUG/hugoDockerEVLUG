@@ -3,10 +3,10 @@ Hugo Docker Demo - EVLUG
 (Built and tested on Ubuntu 14.4 AWS AIM)  
 
 Dependancies:  
-	- git  
-	- go (language)  
-	- docker  
-	- hugo  
+	- [git](http://www.git-scm.com/)  
+	- [go](http://golang.org) (language)  
+	- [hugo](http://gohugo.io)  
+	- [docker](http://docker.com)  
 
 	
 Git:  
@@ -21,7 +21,13 @@ Go:
 		`$ sudo export PATH=$PATH:/usr/local/go/bin`  
 	- Install Go (language)  
 		`$ sudo apt-get install golang`  
-		
+	
+Hugo:  
+(for more detailed or other OS instructions please see: [Hugo Docs](http://gohugo.io/overview/installing/))  
+	- install hugo  
+		`$ export GOPATH=$HOME/go`  
+		`$ go get -v github.com/spf13/hugo`  
+
 Docker:  
 (for more detailed or other OS instructions please see: [Docker Docs](http://docs.docker.com/installation/))  
 	- Install Docker  
