@@ -31,7 +31,7 @@ Hugo:
 		`$ wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz`  
 		`$ gzip -dc hugo_0.14_linux_amd64.tar.gz | tar xf - && rm hugo_0.14_linux_amd64.tar.gz`  
 		(Adding hugo to your path)  
-		`$ sudo ln -s ~/opt/packages/hugo/hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 ~/bin/hugo /usr/local/bin/hugo`  
+		`$ sudo ln -s ~/opt/packages/hugo/hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 /usr/local/bin/hugo`  
 		`$ source ~/.profile`  
 
 Docker:  
