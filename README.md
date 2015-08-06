@@ -20,7 +20,7 @@ Git:
 Go:  
 (for more detailed or other OS instructions please see: [Go Docs](http://golang.org/doc/install))  
  	- Install Go (language)  
-	        `sudo apt-get update`  
+	        `$ sudo apt-get update`  
 		`$ sudo apt-get install golang`  
         - Add `/usr/local/go/bin` to PATH environment variable  
 		`$ sudo export PATH=$PATH:/usr/local/go/bin`  
@@ -42,6 +42,6 @@ Docker:
 		(Check if wget installed)  
 		`$ which wget` <- If installed skip next two commands  
 		(Installing wget)  
-		`sudo apt-get update`  
-		`sudo apt-get install wget`  
-		`wget -q0- https://get.docker.com/ | sh`
+		`$ sudo apt-get update`  
+		`$ sudo apt-get install wget`  
+		`$ wget -q0- https://get.docker.com/ | sh`
