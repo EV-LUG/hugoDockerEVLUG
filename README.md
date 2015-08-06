@@ -19,10 +19,11 @@ Git:
 
 Go:  
 (for more detailed or other OS instructions please see: [Go Docs](http://golang.org/doc/install))  
- 	- Add `/usr/local/go/bin` to PATH environment variable  
-		`$ sudo export PATH=$PATH:/usr/local/go/bin`  
-	- Install Go (language)  
+ 	- Install Go (language)  
 		`$ sudo apt-get install golang`  
+        - Add `/usr/local/go/bin` to PATH environment variable  
+		`$ sudo export PATH=$PATH:/usr/local/go/bin`  
+
 	
 Hugo:  
 (for more detailed or other OS instructions please see: [Hugo Docs](http://gohugo.io/overview/installing/))  
