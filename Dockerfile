@@ -1,10 +1,12 @@
-FROM hickca
+FROM ubuntu:trusty
 MAINTAINER Carl Hicks <mail@carlhicks.me>
-ADD hugo hugo
-ADD hugoTestSite/ hugoTestSite/
-WORKDIR /hugoTestSite
-EXPOSE 6000
-ENTRYPOINT ["/hugo"]
-# On host server you will need to point in your /etc/hosts to mesoes.demo to
-# the servers IP
-CMD ["sever","-w", "--baseURL=http://mesos.demo/","--port=6000", "--bind=0.0.0.0"]
+RUN cd /root/
+RUN apt-get -y update
+RUN apt-get -y install git golang curl 
+RUN curl -L https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz -o /root/hugo_0.14_linux_amd64.tar.gz
+RUN tar -C /root/ -xzf /root/hugo_0.14_linux_amd64.tar.gz
+RUN mkdir /test
+RUN /root/hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 new site /test/
+RUN cd /test/ && /root/hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 new about.md
+RUN echo "Hello World" >> /test/content/about.md
+ADD themes /test/themes
